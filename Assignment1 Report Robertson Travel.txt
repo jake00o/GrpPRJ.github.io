@@ -1,0 +1,49 @@
+Assignment1 Report: Robertson Travels
+
+Introduction:
+Robertson Travels is a project aimed at creating a comprehensive travel planning and hotel booking platform. The platform aims to provide users with an intuitive interface to plan their travels efficiently, book accommodations, flights, and activities, and access relevant travel information.
+
+
+
+Objectives:
+
+1. Develop a user-friendly website for Robertson Travels.
+2. Integrate features for travel planning, booking, and accessing travel information.
+3. Collaborate with travel partners to offer a wide range of options to users.
+4.Implement feedback mechanisms to continuously improve the platform.
+
+
+
+Project Components:
+
+1. Website Development: Designing and developing website  with a focus on user experience and functionality.
+2. Database Management: Implementing a robust database system to store user information, travel data, bookings, and partner details securely.
+3. Integration of Travel APIs: Integrating APIs from airlines, hotels, private guide and activity providers to offer real-time booking options.
+4. User Interface Design: Creating intuitive interfaces for easy navigation and seamless user interaction.
+
+
+
+Challenges:
+
+Ensuring data security and compliance with regulations such as GDPR.
+Optimizing performance for high traffic loads.
+Establishing partnerships with reliable travel service providers.
+Balancing simplicity with comprehensive features in the user interface.
+Meeting project deadlines while maintaining quality standards.
+
+
+
+What we learnt while working on this assignment:
+
+1. Font awesome icon: With the help of font awesome icon we can easily make our website more atractive and impressive.
+2. Animation On Scroll(AOS): This can add many features while scrolling through website which make website more presentfull to the users.
+3. Navigation: Click on the text to navigate user to that sepecific section to  avoide scrolling. 
+ 
+
+
+Conclusion:
+The Robertson Travels project is well underway, with significant progress made in various areas. With careful planning and execution, the platform aims to become a go-to destination for travelers seeking a convenient and reliable way to plan and book their trips.
+
+
+
+

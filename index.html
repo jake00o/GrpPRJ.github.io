@@ -1,0 +1,654 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>ROBERTSON TRAVELS</title>
+
+
+		<!-- CSS -->
+
+		<!-- BOOTSTRAP -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css"/>
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/d5b956fb36.js" crossorigin="anonymous"></script>
+
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- JQEURY CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		
+	</head>
+
+	<body>
+		<!-- NAVBAR  -->
+		<nav id="navScrollSpy" class="navbar sticky-top navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand fw-bolder" href="/travel-wasp">ROBERTSON TRAVELS</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse container d-flex-md justify-content-md-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#service">Service</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#gallery">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
+
+		<!-- carousel 60vh -->
+
+		<div id="carouselTravelWasp" class="carousel slide container-fluid" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="imgs/carousel/hike.jpg" class="d-block w-100" alt="walk with nature" />
+					<div class="carousel-caption">
+						<h1 class="fw-bolder">To walk with Nature</h1>
+						<p class="fw-medium">The mountains are calling and I must go.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="imgs/carousel/island-beach.jpeg" class="d-block w-100" alt="kayaking" />
+					<div class="carousel-caption "> <!-- d-none d-md-block -->
+						<h1 class="fw-bolder">Live life in Kayaks</h1>
+						<p class="fw-medium">Never let your fears paddle solo</p>
+						</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="imgs/carousel/caving.jpg" class="d-block w-100" alt="man cave" />
+					<div class="carousel-caption">
+						<h1 class="fw-bolder">Man Cave</h1>
+						<p class="fw-medium">
+							You can always get out; there's never a dead end.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of carousel -->
+
+
+		<!-- choose-us features -->
+		<section class="choose-us features py-5">
+			<div class="container travel-wasp"data-aos="fade-up">
+				<div class="row justify-content-md-center">
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<!-- features -->
+						<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<i class="fa-solid fa-plane-departure"></i>
+								<h5 class="mt-2">Travel Arrangements</h5>
+								<p class="text-lg-left">
+									"Discover seamless travel arrangements tailored to your preferences with our expertly curated itineraries, ensuring a stress-free journey from start to finish."
+								</p>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<i class="fa-solid fa-chart-line"></i>
+									<h5 class=" mt-2">Activies</h5>
+									<p class="text-lg-left">
+										"Embark on unforgettable adventures with our diverse range of activities, from thrilling excursions to cultural experiences, promising something for every traveler's taste."
+									</p>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<i class="fa-solid fa-map-location-dot"></i>
+								<h5 class="mt-2">Location Manager</h5>
+								<p class="text-lg-left">
+									"Meet our dedicated location managers, your local experts who ensure every detail of your trip is perfectly executed, providing insider knowledge and personalized assistance."
+								</p>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<i class="fa-solid fa-user-shield"></i>
+								<h5 class="mt-2">Private Guide</h5>
+								<p class="text-lg-left">
+									"Experience the pinnacle of exploration with our private guides, offering exclusive insights and customized tours to uncover the hidden gems of your chosen destination."
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-12">
+						<!-- images -->
+						<div class="row">
+							<div class="col-md-6 ps-md-5 mt-sm-3">
+								<img src="imgs/features/feature-1.jpg" class="img-fluid" alt="beach image" />
+							</div>
+							<div class="col-md-6 mt-md-5 ps-md-5 mt-3">
+								<img src="imgs/features/feature-2.jpg" class="img-fluid" alt="beach image - maldives" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of choose-us features -->
+
+
+		<!-- Top Deals -->
+		<section class="top-deals py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title text-center" data-aos="fade-up">
+							<button type="button" class="btn primary-color btn-sm my-2" disabled>Destinations</button>
+							<h3 class="mt-md-3">Travel Most Popular Places</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row my-5">
+					<div class="col-sm-12 col-xl-4 col-lg-6">
+						<figure class="figure single-deal" data-aos="fade-right">
+							<img src="imgs/destinations/1.jpg" class="figure-img img-fluid" alt="Kayaking, Siargao">
+							<figcaption class="figure-caption p-3">
+								<span class="tr-price p-2">
+									$ 200/Night
+								</span>
+								<small><i class="fa-regular fa-clock my-2"></i> 10 Days Trip</small>
+								<h5>Princetown, Austria</h5>
+								<div class="tour-rating mt-3">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<span class="rating_count">(140)</span>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-12 col-xl-4 col-lg-6">
+						<figure class="figure single-deal" data-aos="fade-up">
+							<img src="imgs/destinations/2.jpg" class="figure-img img-fluid"
+								alt="Vigan City, Philippines">
+							<figcaption class="figure-caption p-3">
+								<span class="tr-price p-2">
+									$ 150/Night
+								</span>
+								<small><i class="fa-regular fa-clock my-2"></i> 7 Days Trip</small>
+								<h5>Surfers Paradise, Australia</h5>
+								<div class="tour-rating mt-3">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<span class="rating_count">(189)</span>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-12 col-xl-4 col-lg-6">
+						<figure class="figure single-deal" data-aos="fade-left">
+							<img src="imgs/destinations/3.jpg" class="figure-img img-fluid"
+								alt="Oslob Whale Shark">
+							<figcaption class="figure-caption p-3">
+								<span class="tr-price p-2">
+									$ 350/Night
+								</span>
+								<small><i class="fa-regular fa-clock my-2"></i> 10 Days Trip</small>
+								<h5>Sydney, Australia</h5>
+								<div class="tour-rating mt-3">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<span class="rating_count">(250)</span>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Top Destinations -->
+
+
+		<!-- Services -->
+		<section data-bs-spy="scroll" data-bs-target="#navScrollSpy" class="services py-5" id="service">
+			<div class="container" data-aos="fade-up">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<button type="button" class="btn primary-color btn-sm my-2" disabled>Services</button>
+							<h3 class="mt-md-3">What We Offer For You</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row text-left mt-sm-2 mt-md-4">
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-bed"></i>
+							</div>
+							<div class="service-text">
+								<h4>Delux Room</h4>
+								<p class="mt-md-2 mt-lg-3"> "Experience unparalleled luxury in our deluxe rooms, meticulously crafted to offer a blend of sophistication and comfort, ensuring a serene retreat during your travels."</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-burger"></i>
+							</div>
+							<div class="service-text">
+								<h4>Delicious Food</h4>
+								<p class="mt-md-2 mt-lg-3"> "Savor the finest flavors from around the world with our delicious food offerings, prepared by expert chefs to tantalize your taste buds and satisfy every craving."</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-taxi"></i>
+							</div>
+							<div class="service-text">
+								<h4>Airport Taxi</h4>
+								<p class="mt-md-2 mt-lg-3"> "Enjoy seamless transportation to and from the airport with our reliable taxi services, ensuring a hassle-free journey to kickstart or conclude your adventure."</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-wifi"></i>
+							</div>
+							<div class="service-text">
+								<h4>Free Wifi</h4>
+								<p class="mt-md-2 mt-lg-3"> "Stay connected with complimentary high-speed Wi-Fi throughout our premises, allowing you to effortlessly share your travel experiences and stay in touch with loved ones."</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-briefcase-medical"></i>
+							</div>
+							<div class="service-text">
+								<h4>Free Medication</h4>
+								<p class="mt-md-2 mt-lg-3">"Rest assured with our complimentary medication service, providing peace of mind and convenience for any unforeseen health needs during your stay."</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-12 services-card p-sm-2 p-md-4">
+						<div class="service p-4 my-2">
+							<div class="icon my-3">
+								<i class="fa-solid fa-headset"></i>
+							</div>
+							<div class="service-text">
+								<h4>Tour Guide</h4>
+								<p class="mt-md-2 mt-lg-3">. "Embark on enriching adventures guided by our knowledgeable tour guides, who will unveil the hidden treasures and cultural wonders of your chosen destination, creating unforgettable memories along the way."</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Services -->
+
+
+		<!-- GALLERY -->
+		<section id="gallery" class="tour-gallery py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" data-aos="fade-up">
+						<div class="section-title text-center">
+							<button type="button" class="btn primary-color btn-sm my-2" disabled>Gallery</button>
+							<h3 class="mt-md-3">Best Tourist's Shared Photos</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-grid">
+					<div class="row mt-sm-2 mt-md-4">
+						
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="single-gallery">
+								<img src="imgs/gallery/peru.jpg" alt="Peru" class="img-fluid">
+								<h5 class="text-center">Machu Picchu, Peru</h5>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="single-gallery">
+								<img src="imgs/gallery/canada.jpg" alt="Canada" class="img-fluid">
+								<h5 class="text-center">Morained Lake, Canada</h5>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="single-gallery">
+								<img src="imgs/gallery/thailand.jpg" alt="Thailand" class="img-fluid">
+								<h5 class="text-center">Sea, Thailand</h5>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-12">
+						<div class="double-gallery" id="galleryItem1">
+							<img src="imgs/gallery/uae.jpg" alt="United Arab Emirates" class="img-fluid">
+						<h5 class="text-center">United Arab Emirates</h5>
+						</div>
+						</div>
+
+				<div class="col-md-6 col-12">
+					<div class="double-gallery" id="galleryItem2">
+					<img src="imgs/gallery/egypt.jpg" alt="Egypt" class="img-fluid">
+					<h5 class="text-center">Egypt</h5>
+					</div>
+					</div>
+					</div>
+
+
+					</div>
+				</div>
+			</div>
+			<div>
+			<button id="showGallery" class="btn btn-primary d-block mx-auto mt-3">Show More </button>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+
+
+		<!-- TOP TOUR PACKAGE -->
+		<section class="package py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" data-aos="fade-up">
+						<div class="section-title text-center">
+							<button type="button" class="btn primary-color btn-sm my-2" disabled>Popular Packages</button>
+							<h3 class="mt-md-3">The Best of Our Packages</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="single-package" data-aos="fade-right">
+							<div class="pack-image">
+								<img src="imgs/popular-packages/1.jpg" alt="French Sea Beach" class="img-fluid">
+							</div>
+							<div class="tour-text py-2 px-3">
+								<div class="tour-rating mb-2">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<h5 class="fw-bolder">French Sea Beach</h5>
+									</div>
+									<div class="col-4">
+										<p class="pack-price">From $159</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="single-package" data-aos="fade-up">
+							<div class="pack-image">
+								<img src="imgs/popular-packages/2.jpg" alt="Beautiful Island Resort" class="img-fluid">
+							</div>
+							<div class="tour-text p-2">
+								<div class="tour-rating mb-2">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<h5 class="fw-bolder">Beautiful Island Resort</h5>
+									</div>
+									<div class="col-4">
+										<p class="pack-price">From $269</p>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="single-package" data-aos="fade-left">
+							<div class="pack-image">
+								<img src="imgs/popular-packages/3.jpg" alt="Maldives Sea Beach" class="img-fluid">
+							</div>
+							<div class="tour-text p-2">
+								<div class="tour-rating mb-2">
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+									<i class="fas fa-star primary-color" aria-hidden="true"></i>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<h5 class="fw-bolder">Maldives Sea Beach</h5>
+									</div>
+									<div class="col-4">
+										<p class="pack-price">From $350</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END TOP TOUR PACKAGE -->
+
+
+		<!-- CONTACT US -->
+		<section class="contact-us py-5">
+			<div class="container">
+				<div class="contact">
+					<div class="row">
+						<div class="col-xl-8 col-12">
+							<div class="contact-form" data-aos="fade-right">
+								<h4 class="py-2">Get in Touch</h4>
+								<form action="#" method="post">
+									<div class="row">
+										<div class="col-xl-6 mb-3">
+											<input type="text" name="name" class="form-control" id="userName" placeholder="Name">
+										</div>
+										<div class="col-xl-6 mb-3">
+											<input type="email" name="email" class="form-control" id="email" placeholder="Email">
+										</div>
+										<div class="col-xl-6 mb-3">
+											<input type="text" name="phone"class="form-control" id="phone" placeholder="Phone">
+										</div>
+										<div class="col-xl-6 mb-3">
+											<select name="Packages" class="form-control" id="Packages">
+												<option value="" selected disabled>Select a Package</option>
+												<option value="Princetown,Austria">Princetown, Austria "10 Days"</option>
+												<option value="Surfers Paradise, Australia">Surfers Paradise, Australia "7 Days"</option>
+												<option value="Sydney, Australia">Sydney, Australia "10 Days"</option>
+												<option value="French Sea Beach">French Sea Beach</option>
+												<option value="Beautiful Island Resort">Beautiful Island Resort</option>
+												<option value="Maldives Sea Beach">Maldives Sea Beach</option>
+											</select>
+
+										</div>
+										<div>
+										<!--calender form drop down-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+		<dropdown>
+	<input id="toggle1" type="checkbox" checked>
+	<label for="toggle1" class="animate">Select Dates<i class="fa fa-bars float-right"></i></label>
+	<ul class="animate">
+										<!-- calendar  -->
+										<h1 class="center"></h1>
+										<div class="calendar">
+										<div class="group">
+										<p class="left pointer minusmonth">&laquo;</p>
+										<p class="left monthname center pointer"></p>
+										<p class="right pointer addmonth">&raquo;</p>
+										</div>
+										<ul class="group">
+										<li>Mo</li>
+										<li>Tu</li>
+										<li>We</li>
+										<li>Th</li>
+										<li>Fr</li>
+										<li>Sa</li>
+										<li>Su</li>
+										</ul>
+										</div>
+									</div>
+
+										</ul>
+									</dropdown>
+										
+									</div>
+									<button type="button" class="btn btn-md primary-bg submit-btn" onclick="printMessage()">SUBMIT NOW</button>
+	<div id="messageContainer"></div>
+	<script>
+		function printMessage() {
+		var messageContainer = document.getElementById("messageContainer");
+		messageContainer.textContent = "Our agent will contact you shortly for further details";
+		}
+	</script></form>
+							</div>
+						</div>
+						<div class="col-xl-4 col-12">
+							<div class="contact-info primary-bg" data-aos="fade-left">
+								<h4 class="py-2">Contact Information</h4>
+								<div class="single-info">
+									<i class="fa-solid fa-phone text-center"></i>
+									<div class="info-text">
+										<h5>Call Phone</h5>
+										<p>+639183499232</p>
+									</div>
+								</div>
+								<div class="single-info">
+									<i class="fa-solid fa-at text-center"></i>
+									<div class="info-text">
+										<h5>Email us</h5>
+										<p>ROBERTSONTRAVELS@example.com</p>
+									</div>
+								</div>
+								<div class="single-info">
+									<i class="fa-solid fa-location-arrow text-center"></i>
+									<div class="info-text">
+										<h5>Address</h5>
+										<p>MEMORIAL DRIVE,CALGARY</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- END CONTACT US -->
+
+		<!-- FOOTER  -->
+		<section class="footer py-5" id="contact">
+			<div class="container footer-top">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-12">
+						<div class="footer-column pb-xl-3 mb-4">
+							<h4 class="col-title pb-xl-3 pb-sm-2">Contact</h4>
+							<div class="footer-cont-info">
+								<p>
+									<i class="fa-solid fa-phone me-2"></i>
+									<span>+639183499232</span>
+								</p>
+								<p>
+									<i class="fa-solid fa-at me-2"></i>
+									<span>ROBERTSONCOLLEGE@example.com</span>
+								</p>
+								<p>
+									<i class="fa-solid fa-location-arrow me-2"></i>
+									<span>Memorial drive, Calgary</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-12">
+						<div class="footer-column pb-xl-3 mb-4">
+							<h4 class="col-title pb-xl-3 pb-sm-2">Quick Links</h4>
+							<ul>
+								<li><a href="#">Our Story</a></li>
+								<li><a href="#">Travel Blogs & Tips</a></li>
+								<li><a href="#">Tour Guide</a></li>
+								<li><a href="#">Be Our Partner</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-12">
+						<div class="footer-column pb-xl-3 mb-4">
+							<h4 class="col-title pb-xl-3 pb-sm-2">Support</h4>
+							<ul>
+								<li><a href="#">Customer Support</a></li>
+								<li><a href="#">Privacy & Policy</a></li>
+								<li><a href="#">Forum</a></li>
+								<li><a href="#">Terms & Condition</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-12">
+						<div class="footer-column pb-xl-3 mb-4">
+							<h4 class="col-title pb-xl-3 pb-sm-2">Newsletter</h4>
+							<p>By subscribing to our mailing list you will always be updated</p>
+							<div class="subscribe-form">
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" id="email" placeholder="Email">
+									<button type="button" id="para" class="btn sub-btn primary-bg btn-md mt-3" onclick="changeText()" >SUBSCRIBE</button>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container footer-btm">
+				<div class="row text-center">
+					<small>Copyright @ ROBERTSON COLLEGE all right reserved.</small>
+				</div>
+			</div>
+		</section>
+		<!-- END FOOTER -->
+		<div id="topControl" class="top-control">
+			<i class="fa-brands fa-space-awesome"></i>
+		</div>
+		
+
+
+		<!-- JS script -->
+
+		<!-- BOOTSTRAP -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+
+		<!-- AOS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<!-- JQEURY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+
+	</html>

@@ -1,0 +1,454 @@
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.navi {
+    background-color: #ff3333;
+}
+/* utils */
+.primary-color {
+    color: red !important;
+}
+
+.primary-bg {
+    background-color: red !important;
+}
+
+/* navbar */
+
+.navbar-brand-scrolled:hover {
+    color: #fff !important;
+}
+
+a.nav-link {
+    font-size: 18px;
+}
+
+.navbar-scrolled {
+    background-color:red !important;
+    box-shadow: 0 3px 10px rgba(249, 171, 48, 0.3);
+}
+
+
+/* home carousel */
+.carousel {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+/* choose us section */
+.features i {
+    font-size: 42px;
+    color: red;
+}
+
+.features img {
+    height: 320px;
+    object-fit: cover;
+}
+
+/* destinations */
+
+.section-title button {
+    background-color: rgba(249, 171, 48, 0.1) !important;
+}
+
+.single-deal {
+    border: 1px solid #ebe6de;
+    border-radius: 6px;
+}
+
+.tr-price {
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    top: -90px;
+    right: -17px;
+    color: #fff;
+    background-color: red;
+}
+
+.tr-price::before {
+    content: '';
+    left: -19px;
+    top: 0px;
+    position: absolute;
+    border-top: 19px solid transparent;
+    border-right: 19px solid red;
+    border-bottom: 21px solid transparent;
+}
+
+/* services */
+.services {
+    background-color: #F4F9FF;
+}
+
+.services i {
+    font-size: 42px;
+    color: #6e7434;
+}
+
+.service {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.service i {
+    font-size: 42px;
+    color: red;
+}
+
+
+.tour-rating .rating_count {
+    float: right;
+    color: #727272;
+}
+
+/* gallery */
+.single-gallery h5 {
+
+    font-weight: 600;
+    float: inherit;
+    position: relative;
+    top: -50px;
+    color: #fff;
+}
+/* show button*/
+#showGallery {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #showGallery:hover {
+    background-color: darkred;
+  }
+  
+
+
+/* packages */
+.tour-text {
+    position: relative;
+    bottom: 100px;
+    color: #fff;
+    background-color: rgba(249, 171, 48, 0.1);
+}
+
+.pack-price {
+    font-weight: 900;
+}
+
+
+/* contact us */
+
+.contact-us {
+    background-color: #F4F9FF;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 4px 0px 0px 4px;
+    padding: 55px 30px 55px 55px;
+    height: 100%;
+}
+
+.form-control:focus {
+    border-color: red !important;
+    box-shadow: 0 0 0 0.25rem rgb(249, 171, 48, 0.1) !important;
+}
+
+.submit-btn {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: red;
+    border-color: red;
+    
+}
+
+.submit-btn:hover {
+    background-color: #00102A;
+}
+
+.contact-info {
+    padding: 55px 40px;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+}
+
+.single-info {
+    background-color: #FFF;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.single-info i {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(249, 171, 48, 0.1);
+    color: #333;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    line-height: 40px;
+
+}
+
+.sigle-info p {
+    font-weight: 500;
+}
+
+/* footer */
+
+.footer {
+    padding: 70px 0 40px;
+    background-color: #00102A;
+    color: #fff;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(249, 171, 48, 0.3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+ul, li {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover {
+    color: red;
+}
+
+.sub-btn { 
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: red;
+    border-color: red;
+}
+
+.submit-btn:hover {
+    background-color: #00102A;
+}
+
+
+.top-control {
+    position: fixed;
+    font-size: 20px;
+    color: #fff;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    background-color: red;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    transition: all .2s ease 0s;
+}
+
+.top-control i {
+    margin-left: 12px;
+}
+.top-control:hover {
+    background-color: #00102A;
+}
+
+/*dropdown*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+  }
+  .float-right{
+    float: right;
+  }
+  .fa{
+   font-size: .8em;
+    line-height: 22px !important;
+  }
+  dropdown{
+     display: inline-block;
+     margin: 0px 0px; 
+  }
+  dropdown label, dropdown ul li{
+    display: block;
+    width: px;
+    background: #191919;
+    opacity: 0.9;
+    padding: 15px 20px;
+  }
+  dropdown label:hover, dropdown ul li:hover{
+    background: #4D4D4D;
+    color: white;
+    cursor: pointer;
+  }
+  dropdown label{
+    color: #B2B2B2;
+    /*border-left: 4px solid #1ABC9C;*/
+    border-radius: 0 5px 0 0; 
+    position: relative;
+    z-index: 2;
+  }
+  dropdown input{
+    display: none;
+  }
+  dropdown input ~ ul{
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    top: -20px;
+    z-index: 1;
+  }
+  dropdown input:checked + label{
+    background: #4D4D4D;
+    color: white;
+  }
+  
+  dropdown input:checked ~ ul{
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+  }
+  
+  @for $i from 1 through length($colors) {
+    dropdown ul li:nth-child(#{$i}) {
+      border-left: 4px solid nth($colors, $i);
+      .fa{
+        color: nth($colors, $i);
+      }
+      &:hover {
+          background: nth($colors, $i);
+          color: white;
+        .fa{
+          color: white; 
+        }
+      }
+    }
+  }
+  
+  .animate{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;  
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden; /* Chrome and Safari */
+    -moz-backface-visibility:hidden; /* Firefox */
+    -ms-backface-visibility:hidden; /* Internet Explorer */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*calendar*/
+  
+  @import url(https://fonts.googleapis.com/css?family=Lato:300);
+  * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  html, body, div, span, h1, h2, h3, p, a, form, nav, li, ul {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+  }
+  ul {
+      list-style-type: none;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .monthname {
+    width: 18em;
+    
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  body {
+    font-family: 'Lato',sans-serif;
+    padding: 1em 0;
+  }
+  .group:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .calendar p {
+      margin-bottom: .5em;
+      color: #FFFFFF;
+  }
+  .calendar {
+      background: #222;
+      color: #ddd;
+      padding: .5em .5em 1em;
+      max-width: 20em;
+      min-height: 15em;
+      margin: .5em auto;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+  }
+  .calendar li {
+      float: left;
+      width: -webkit-calc(100%/7);
+      text-align: center;
+      padding: .25em 0;
+      cursor: pointer;
+      border-bottom: 1px solid #444;
+  }
+  .calendar li:hover, .calendar li.red {
+      color: red;
+  }
+  .calendar li:nth-child(-n+7) {
+      color: #666;
+  }
+  .center {
+      text-align: center;
+  }
